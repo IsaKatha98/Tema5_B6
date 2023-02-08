@@ -11,6 +11,8 @@ public class Ejercicio6 {
 		int longitud;
 		int borrar;
 		
+		//qué cojones pasa?
+		
 
 		// Creamos un escáner.
 		Scanner sc = new Scanner(System.in);

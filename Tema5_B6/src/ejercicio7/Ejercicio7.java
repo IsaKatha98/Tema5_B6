@@ -9,7 +9,7 @@ public class Ejercicio7 {
 
 		// Declaramos las variables necesarias.
 		int longitud;
-		int borrar;
+		int valorBuscar;
 
 		// Creamos un escáner.
 		Scanner sc = new Scanner(System.in);
@@ -28,7 +28,12 @@ public class Ejercicio7 {
 
 		// Imprimimos la tabla.
 		System.out.println(Arrays.toString(tabla));
-
+		
+		//Pedimos la información.
+		System.out.println("Indique cuá es el valor cuyas posiciones quiere conocer: ");
+		valorBuscar=sc.nextInt();
+		
+		
 	}
 
 }
